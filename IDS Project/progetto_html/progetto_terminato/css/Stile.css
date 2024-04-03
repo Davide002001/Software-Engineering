@@ -1,0 +1,354 @@
+body {
+    font-family: "Lucida Handwriting", fantasy;
+    background-color: #0d0d0d;
+}
+
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    background-color: #414141;
+    border-bottom: #A2855B .5px solid ;
+    border-top: #A2855B .5px solid ;
+}
+
+a.button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+.inpField{
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-bottom-width: 1px;
+}
+
+.imgContainer{
+    text-align: center;
+    margin-top: 33px;
+}
+
+.bookingSection{
+    border-radius: 25px;
+    width: 800px;
+    background-color: #414141;
+    margin: auto;
+    border: solid grey 1px;
+}
+
+.testo{
+    -webkit-text-stroke: 1px black;
+    font-family: "Lucida Handwriting", fantasy;
+    color: #A2855B;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #A2855B;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.form-control-lg {
+    font-family: "Courier New";
+    width: 100%;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    min-height: calc(1em + 0rem + 5px);
+    padding: 0.9rem 2rem;
+    background-color: black;
+}
+
+.form-control-lg2{
+    font-family: "Courier New", fantasy;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    min-height: calc(1em + 0rem + 5px);
+    padding: 0.9rem 2rem;
+    background-color: #8a5505;
+    border: 2px solid black;
+}
+
+.form-control-lg2 strong{
+    font-family: "Courier New", fantasy;
+    color: black;
+}
+
+.form-control-lg2:active{
+    transform: scale(0.96);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    background-color: #9b5800;
+}
+
+input, textarea, select{
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #a2855b;
+    color: #FFFFFF;
+}
+
+.label{
+    font-family: "Courier New", fantasy;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.date-picker{
+    display: flex;
+}
+
+.date-picker .time{
+    flex: 2;
+}
+
+.date-picker .date{
+    flex: 3;
+}
+
+.title{
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Lucida Handwriting", fantasy;
+    color: #A2855B;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+.row div{
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+}
+
+.body {
+    
+}
+
+.footer {
+    text-align: right;
+    padding: 22px;
+    background-color: #414141;
+}
+
+.big-text{
+    background-color: #414141;
+    font-size: 30px;
+}
+
+.big-text:not(:last-child){
+    border-right: solid grey 1px;
+}
+
+.element:not(:last-child){
+    border-right: solid grey 1px;
+}
+
+.element{
+    font-size: 22px;
+    border-bottom: solid grey 1px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.w-image img{
+    height: 100px;
+    width: 100px;
+}
+
+.w-image span{
+    align-self: center;
+    justify-self: end;
+    flex: 1;
+}
+
+.form-item{
+    text-align: center;
+}
+
+.tabellone {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#PnumuDiv{
+    width: 210px;
+    margin-left: 79px
+}
+
+#NumuPpl{
+    width: 130px;
+    margin-left: 88px;
+}
+
+.inputColor{
+    color: #a2855b
+}
+
+@media only screen and (max-width: 375px){
+
+    .bookingSection{
+        width: 375px;
+    }
+
+    .form-item{
+        width: 375px;
+    }
+
+    .label[for=Data]{
+        padding-right: 20px;
+    }
+
+    .date-picker{
+        width: 187.5px;
+    }
+
+    #Pnum{
+        width: 110px;
+        padding: 10px;
+        margin-right: 50px;
+    }
+
+    #PnumuDiv{
+        margin-left: 0;
+        margin-top: 18px;
+    }
+
+    #NumuPpl{
+        margin-top: 17px;
+        margin-left: 0;
+    }
+
+    .form-control-lg{
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .form-control-lg::after {
+        color: #e32;
+        content: ' *';
+        display:inline;
+    }
+
+    .row div{
+        padding: 0
+    }
+
+    .label{
+        font-size: 18px;
+    }
+
+    .label[for=People] {
+        padding-right: 25px;
+    }
+
+    input{
+        height: 25px;
+    }
+
+    input[type="time"]::-webkit-calendar-picker-indicator {
+        background: none;
+    }
+
+    .imgContainer{
+        margin-top: 25px;
+    }
+
+}

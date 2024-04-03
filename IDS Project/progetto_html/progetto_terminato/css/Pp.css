@@ -1,0 +1,414 @@
+
+/* COMPUTER  */
+
+body {
+    background-color: #0d0d0d;
+
+
+}
+/*
+p3{
+    color: #a2855b;
+    text-align: center;
+    top:100px;
+    font-size: 26px;
+
+
+ */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 920px;*/
+    background-image: url('../Images/Ristorante.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100% ;
+    height:960px;
+    margin-left:0px;
+    padding:0;
+}
+
+nav{
+    background-color: #a2855b;
+    text-align: center;
+    width:100%;
+    height:50px;
+    margin:0;
+    padding:0;
+    font-family: "Courier New", fantasy;
+}
+
+nav ul{
+    list-style-type: none; /* Per far sparire i pallini */
+    margin:0;
+    padding:0;
+    font-family: "Courier New", fantasy;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-family: "Courier New", fantasy;
+}
+
+nav li:hover{
+    background-color: #8a5505;
+    font-family: "Courier New", fantasy;
+}
+
+nav li{
+    display:inline-block;
+    padding:20px;
+    font-family: "Courier New", fantasy;
+}
+
+p {
+    font-size: 60px;
+    color: white;
+    /*height: 190px;*/
+    opacity: 1;
+    font-family: "Lucida Handwriting", "Brush Script MT", fantasy;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+
+p1 {
+        font-size: 50px;
+        color: #a2855b;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+
+        opacity: 1;
+        font-family: "Lucida Handwriting", "Brush Script MT", fantasy;
+
+    }
+
+
+
+p2 {
+        font-size: 18px;
+        color: #a2855b;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+
+}
+
+
+p4 {
+    font-size: 22px;
+    color: #a2855b;
+    left: 20px;
+    font-family: "Courier New", fantasy;
+    }
+
+
+
+.logotipo_visibile {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        transition: transform 0.8s, opacity 0.8s;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+.title_option {
+        padding-top: 30px;
+
+    }
+
+
+
+    .box1 {
+        padding-top: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
+.form-control-lg {
+        border-radius: 80px;
+        font-size: 18px;
+        padding: 15px;
+        background-color: #000000;
+        text-decoration-color: #a2855b;
+    }
+
+
+
+.form-control-lg {
+        min-height: calc(10px + 10px + 10px);
+    }
+
+
+.inserimento {
+        padding-top: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+
+
+.form-control {
+        width: 650px;
+        min-height: 10px;
+    }
+
+
+.mb-4 {
+    margin-bottom: 2rem!important;
+}
+
+.box1 p4.outline {
+    background: transparent;
+    border: 3px solid #a2855b;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.form-control1{
+    width: 110px;
+    min-height: 10px;
+}
+
+.form-control2{
+    width: 130px;
+    min-height: 10px;
+}
+
+.menù{
+    padding-top: 70px;
+}
+
+
+
+.title-block {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    font-size: 12px;
+    line-height: 10px;
+    font-family: "Sweet Sans Pro Web", fantasy;
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+div{
+    display: block;
+}
+
+.form-control1{
+    width: 110px;
+    min-height: 10px;
+}
+
+.form-control3{
+    width: 150px;
+    min-height: 10px;
+}
+
+.form-control4{
+    width: 160px;
+    min-height: 10px;
+}
+
+.form-control5{
+    width: 650px;
+    min-height: 10px;
+}
+
+.form-control6{
+    width: 650px;
+    min-height: 10px;
+}
+
+.form-control7 {
+    width: 240px;
+    min-height: 10px;
+    font-size:18px;
+    text-align: center;
+    border-radius: 30px;
+    height: 30px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
+.date-picker{
+    display: flex;
+}
+
+.date-picker .time{
+    flex: 2;
+}
+
+.date-picker .date{
+    flex: 3;
+}
+
+.title{
+    font-size: 32px;
+}
+
+
+.logotipo_visibile2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.8s, opacity 0.8s;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.table{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #a2855b ;
+}
+
+
+#buttonm{
+    margin-left: 45%;
+    margin-top: 90px;
+    width: 160px;
+    height:50px;
+}
+
+/* . gallery . */
+
+.container-gallery{
+    width: 80%;
+    display: flex;
+    /*align-items: center;
+    justify-content:center;*/
+    padding-left: 10%;
+    padding-right: 10%;
+ 
+}
+
+.swiper{
+    width: 100%;
+    z-index: 0;
+
+}
+.swiper-slide img{
+    width: 100%;
+    height: 80%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: azure;
+}
+
+.side-crop { 
+    max-height: 500px; 
+    overflow: hidden; 
+    
+}
+.side-crop img { 
+    max-width: initial; 
+    /* Maybe optional. See note below */ 
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:#ddd;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color:#ddd;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #585050;color:#ddd;}
+  
+  /*#customers tr:hover {background-color: #ddd;color:#ddd;}*/
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6f6f6f;
+    color: white;
+  }
+
+  .orders td{
+    border: none !important;
+    text-align: left !important;
+    font-size: 20px !important;
+  }
+
+
+#prenot {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:#ddd;
+    margin-right: 7%;
+    margin-left: 7%;
+    width: 86%;
+  }
+  
+  #prenot td, #prenot th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color:#ddd;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  #prenot tr:nth-child(even){background-color: #585050;color:#ddd;}
+  
+  /*#customers tr:hover {background-color: #ddd;color:#ddd;}*/
+  
+  #prenot th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6f6f6f;
+    color: white;
+  }

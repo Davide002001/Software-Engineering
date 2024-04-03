@@ -1,0 +1,612 @@
+
+/* iPad Mini, iPad */
+@media screen and (min-width: 1000px)and (max-width:1179px) {
+    body{
+        margin-top: 0;
+    }
+
+    .title-block{
+        font-size:24px;
+        line-height: 20px;
+        font-family: "Sweet Sans Pro Web", fantasy;
+        margin: 0 10px;
+        font-weight: bold;
+        width: 165%;
+    }
+
+    nav li{
+        display: block;
+        padding:20px;
+    }
+
+    nav{
+        height:240px;
+    }
+
+    p2{
+        font-size: 23px;
+    }
+
+    .logotipo_visibile{
+        width:165%;
+    }
+
+    .text{
+        padding-top:50px;
+    }
+
+    p1{
+        width:100%;
+        font-size: 80px;
+    }
+
+    .options p2{
+        font-size: 23px;
+        width:165%;
+    }
+
+    .menù{
+        width:165%;
+    }
+}
+
+/* iPad Air*/
+@media screen and (min-width: 1180px)and (max-width:1181px) {
+    .title-block{
+        font-size:24px;
+        line-height: 20px;
+        font-family: "Sweet Sans Pro Web", fantasy;
+        margin: 0 10px;
+        font-weight: bold;
+
+    }
+
+    .inf{
+        width:165%;
+    }
+
+    nav li{
+        display:block;
+        padding:20px;
+    }
+
+    nav{
+        height:240px;
+        width:693%;
+    }
+
+    .logotipo_visibile{
+        width:165%;
+    }
+
+    .text{
+        padding-top:50px;
+        width:165%;
+    }
+
+    p1{
+        width:100%;
+        font-size: 80px;
+    }
+
+    p2{
+        font-size: 28px;
+    }
+
+    p4{
+        font-size: 29px;
+    }
+
+    .options p2{
+        font-size: 23px;
+        width:165%;
+    }
+
+    .menù{
+        width:165%;
+    }
+
+}
+
+/*iPad Pro modalità landscape*/
+@media screen and (min-width:1182px) and (max-width:1368px){
+    .title-block{
+        font-size:24px;
+        line-height: 20px;
+        font-family: "Sweet Sans Pro Web", fantasy;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    nav li{
+        display:inline-block;
+        padding:15px;
+    }
+
+    nav{
+        height:50px;
+    }
+
+    p2{
+        font-size: 23px;
+    }
+
+    .logotipo_visibile{
+    width:120%;
+    }
+
+    .text{
+        padding-top:50px;
+    }
+
+    p1{
+        width:100%;
+        font-size: 80px;
+    }
+
+    .options p2{
+        font-size: 23px;
+        width:120%;
+    }
+
+    .menù{
+        width:120%;
+    }
+}
+
+/* iPhone tranne 5 e SE*/
+@media screen and (min-width: 320px) and (max-width:374px) {
+
+    p {
+        height: 20px;
+    }
+
+    body {
+        margin: 0;
+
+    }
+
+    .inf {
+        border: 0;
+        margin: 0;
+        width: 400%;
+    }
+
+    nav li {
+        display: block;
+        padding: 20px;
+
+    }
+
+    nav {
+        height: 240px;
+        width: 470%;
+        margin: 0;
+    }
+
+    .title-block {
+        font-size: 26px;
+        line-height: 20px;
+        font-family: 'Winter Coffee', fantasy;
+        margin: 0;
+        font-weight: bold;
+        width: 85%
+
+    }
+
+    p2 {
+        font-size: 35px;
+    }
+
+    p1 {
+        width: 100%;
+        font-size: 80px;
+    }
+
+    li {
+        font-size: 38px;
+    }
+
+    .logotipo_visibile {
+        width: 390%;
+    }
+
+    .options p2 {
+        font-size: 32px;
+        width: 390%;
+    }
+
+    .box1 {
+        width: 390%;
+    }
+
+    .box1 p4.outline {
+        font-size: 37px;
+        border: 3px solid #a2855b;
+        border-radius: 44px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        white-space: nowrap;
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .form-control {
+        width: 390%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control1 {
+        width: 390%;
+        min-height: 40px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control2 {
+        width: 390%;
+        min-height: 40px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+
+    }
+
+    .form-control3 {
+        width: 390%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control7 {
+        width: 390%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    div.text{
+        width:1292px;
+    }
+}
+
+/*iPhone SE 2020*/
+@media screen and (width:375px) {
+
+    p {
+        height: 20px;
+    }
+
+    body {
+        margin: 0;
+
+    }
+
+    .inf {
+        border: 0;
+        margin: 0;
+        width: 400%;
+    }
+
+    nav li {
+        display: block;
+        padding: 20px;
+
+    }
+
+    nav {
+        height: 240px;
+        width: 470%;
+        margin: 0;
+    }
+
+    .title-block {
+        font-size: 26px;
+        line-height: 20px;
+        font-family: 'Winter Coffee', fantasy;
+        margin: 0;
+        font-weight: bold;
+        width: 85%
+
+    }
+
+    p2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    p1 {
+        width: 100%;
+        font-size: 80px;
+    }
+
+    li {
+        font-size: 38px;
+    }
+
+    .logotipo_visibile {
+        width: 390%;
+    }
+
+    .options p2 {
+        font-size: 32px;
+        width: 390%;
+    }
+
+    .box1 {
+        width: 390%;
+    }
+
+    .box1 p4.outline {
+        font-size: 37px;
+        border: 3px solid #a2855b;
+        border-radius: 44px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        white-space: nowrap;
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .form-control {
+        width: 390%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control1 {
+        width: 390%;
+        min-height: 40px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control2 {
+        width: 390%;
+        min-height: 40px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+
+    }
+
+    .form-control3 {
+        width: 440%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control7 {
+        width: 390%;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    div.text{
+        width:1470px;
+    }
+}
+
+
+/* iPhone dai 390px in poi di width */
+@media screen and (min-width: 376px) and (max-width: 999px) {
+
+    #buttonm{
+        margin-left: 158%;
+        margin-top: 90px;
+        width: 260px;
+        height:150px;
+        font-size: 32px;
+    }
+
+    p {
+        height: 20px;
+    }
+
+    body {
+        margin: 0;
+
+    }
+
+    .inf {
+        border: 0;
+        margin: 0;
+        width: 400%;
+    }
+
+    nav li {
+        display: block;
+        padding: 20px;
+
+    }
+
+    nav {
+        height: 240px;
+        width: 470%;
+        margin: 0;
+    }
+
+    .title-block {
+        font-size: 26px;
+        line-height: 20px;
+        font-family: 'Winter Coffee', fantasy;
+        margin: 0;
+        font-weight: bold;
+        width: 85%
+
+    }
+
+    p2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    p1 {
+        width: 100%;
+        font-size: 80px;
+    }
+
+    li {
+        font-size: 38px;
+    }
+
+    .logotipo_visibile {
+        width: 390%;
+    }
+
+    .options p2 {
+        font-size: 32px;
+        width: 390%;
+    }
+
+    .box1 {
+        width: 390%;
+    }
+
+    .box1 p4.outline {
+        font-size: 37px;
+        border: 3px solid #a2855b;
+        border-radius: 44px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        white-space: nowrap;
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .form-control {
+        width: 390%;
+        min-height: 10px;
+        padding-bottom: 25px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control1 {
+        width: 390%;
+        min-height: 40px;
+        padding-bottom: 25px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control2 {
+        width: 390%;
+        min-height: 40px;
+        padding-bottom: 25px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+
+    }
+
+    .form-control3 {
+        width: 450%;
+        padding-bottom: 25px;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    .form-control7 {
+        width: 390%;
+        padding-bottom: 25px;
+        min-height: 10px;
+        font-size: 28px;
+        text-align: center;
+        border-radius: 44px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+        align-items: center;
+        justify-items:center ;
+    }
+
+    #number-input{
+        width:390%
+    }
+
+    div.text {
+        width: 1637px;
+    }
+
+    .box1 image{
+        width:100%;
+        height:100%;
+    }
+
+
+    img.element.style {
+        width: 120%;
+        height: 79%;
+    }
+
+}
+
+
+

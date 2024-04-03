@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Stile.css">
+    <title>iOrder - Booking</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="index.html">Order</a>
+        <a href="Prenotazioni.html">Book</a>
+        <a href="#">Reserved Area</a>
+        <a href="#">About Us</a>
+    </div>
+
+    <div class="topBar">
+        <span style="font-size:34px;cursor:pointer; color:#ffffff" onclick="openNav()"> &#9776; </span>
+        <sub class="title testo" style="-webkit-text-stroke: 1px black">Booking</sub>
+        <a href="Carrello.html" class="button">
+            <img src="images/carrello.png">
+        </a>
+    </div>
+
+    <div class="imgContainer">
+        <img src="images/pizzaicon.png" alt="RestaurantIcon">
+    </div>
+    <div class="testo" style="font-size: 32px; text-align: center; margin-top: 50px; -webkit-text-stroke: 1px black">Restaurant Name</div>
+
+    <form class="bookingSection" style="margin-top: 50px; height: 175px">
+        <div style="text-align: center">
+            <div style="margin-top: 15px; margin-bottom: 10px"><img src="images/confirmedButton.png" style="height: 100px; width: 100px"></div>
+            <div style="font-size: 32px; font-family: 'Courier New', fantasy; -webkit-text-stroke: .5px black"><strong>YOUR ORDER HAS BEEN SENT SUCCESSFULLY</strong></div>
+        </div>
+    </form>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+    <script src="JS/jsBookCart.js" ></script>
+</body>
+</html>
+

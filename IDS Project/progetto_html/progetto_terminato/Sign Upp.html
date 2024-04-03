@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8" />
+  <title>Validation Form</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="css/stiledavide.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+     <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+     <!-- Add Firebase products that you want to use -->
+ 
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+
+     <script src="js/lib.js"></script>
+
+    
+</head>
+
+<body>
+  <div id="main-wrapper">
+    <h1>Sign Up</h1>
+
+    <form action="#" id="form-registrazione" method="post" novalidate>
+      <div id="wrapper-input">
+
+        <input type="text" id="Username" placeholder="Nome" value="" required>
+        <input type="email" id="email" placeholder="Email" value="" required>
+        <div id="password">
+          <input type="password" id="pwd" placeholder="Password" value="" required>
+        </div>
+        <input type="password" id="re_password" placeholder="Confirm password" value="" required>
+        <input type="checkbox" name="terms" value="true" required>
+        <span class='fs-small'>Ho letto e accetto il <a href="trattamento dei dati.pdf">trattamento dei dati</a>.</span>
+
+
+
+      </div>
+      <a type="button" onclick="Credenziali()" class="form-control-lg3"; style="cursor: pointer; text-decoration: none">
+        <strong>SIGN UP</strong>
+      </a>
+    </form>
+
+    <div id="notifica-registrazione"></div>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Stile.css">
+    <title>iOrder - Booking</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       
+        <a href="index.html">Ordina</a>
+        <a href="Prenotazioni.html">Prenota</a>
+        <a href="Loginp.html">Manager Area</a>
+        <a href="Loginpp.html">Reserved Area</a>
+    </div>
+
+    <div class="topBar">
+        <span style="font-size:34px;cursor:pointer; color:#ffffff" onclick="openNav()"> &#9776; </span>
+        <sub class="title testo"> Prenotazioni </sub>
+        <a href="Carrello.html" class="button">
+            <img src="images/carrello.png" alt="CartIcon">
+        </a>
+    </div>
+
+    <div class="imgContainer">
+        <img src="images/pizzaicon.png" alt="RestaurantIcon">
+    </div>
+    <div class="testo" style="font-size: 32px; text-align: center; margin-top: 10px; margin-bottom: 10px">Restaurant Name</div>
+
+    <form class="bookingSection">
+        <div class="row inpField">
+            <div class="form-item">
+                <label for="Name" class="label">Reservation Name </label>
+                <div id="NameDiv">
+                    <input id="Name" maxlength="30" type="text" class="form-control-lg inputColor">
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="Pnum" class="label">Phone Number </label>
+                <div id="PnumuDiv">
+                    <input id="Pnum" type="text" oninput="checkInp()" class="form-control-lg inputColor" maxlength="10" minlength="10">
+                </div>
+            </div>
+        </div>
+        <div class="row inpField">
+            <div class="form-item">
+                <label for="People" class="label">N° People </label>
+                <div id="NumuPpl">
+                    <input id="People" min="1" max="6" maxlength="1" type="number" onKeyDown="return false" class="form-control-lg inputColor">
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="Data" class="label">Select Booking Date</label>
+                <div class="date-picker">
+                    <input id="Data" type="date" class="form-control-lg date inputColor">
+                    <input id="Ora" type="time" class="form-control-lg time inputColor">
+                </div>
+            </div>
+        </div>
+        <div class="inpField form-item">
+            <label for="Notes" class="label">Further Notes </label>
+            <div style="padding-top: 10px; padding-bottom: 10px">
+                <input id="Notes" placeholder="Further notes reguarding your booking..." maxlength="75" class="form-control-lg inputColor" type="text">
+            </div>
+        </div>
+        <div style="text-align: center; padding-bottom: 10px; justify-content: center" class="row">
+            <a type="button" id="ConfirmButton" onclick="confirm()" class="form-control-lg2" style="margin-top: 10px; cursor: pointer; text-decoration: none"><strong>CONFIRM</strong></a>
+        </div>
+    </form>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+    <script src="JS/jsBookCart.js" ></script>
+</body>
+</html>
+
